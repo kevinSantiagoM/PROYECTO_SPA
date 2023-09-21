@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/iniciar_seccion.css' %}">
+    <!-- <link rel="stylesheet" href="/DANI_NAIL_ART/static/css/registro.css"> -->
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="{% url 'InicioSeccion' %}" class="Seccion">Inicia Seccion</a>
+            </li>
+            <li>
+                <a href="{% url 'registrar' %}" class="registro">Registrate</a>
+            </li>
+            <li>
+                <a href="{% url 'Servicios' %}" class="servicios"></a>
+            </li>
+            <li>
+                <a href="{% url 'Agendar'%}" class="agendar">agendar</a>
+            </li>
+            <li>
+                <a href="{% url 'citas' %}">Citas Agendadas</a>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
+
+{% block content %}
+{% endblock %}

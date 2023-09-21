@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    top: -5rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    border: 2px solid #ff4081;
+    border-radius: 23px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h2{
+    font-size: 2em;
+    color: #ff4081;
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #ff4081;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #ff4081;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: black;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ff4081;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+
+.forget label a{
+    color: #ff4081;
+    text-decoration: none;
+}
+
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #ff4081;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.forget{
+    margin: 15px 0 15px ;
+    font-size: .9em;
+    color: black;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+.registro {
+    position: relative;
+    top: 0.5rem;
+    left: 58rem;
+    width: 9rem;
+    height: 20px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.inicio{
+    position: relative;
+    left: 5rem;
+    top: -0.1rem;
+    width: 9rem;
+    height: 40px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}

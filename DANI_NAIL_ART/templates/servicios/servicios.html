@@ -1,0 +1,40 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
+</head>
+<title>Spa de Uñas</title>
+<body><br>
+    <div>
+        <h1 class="titulo">Spa de Uñas</h1>
+    </div>
+        
+    <!-- <li>
+        <a href="{% url 'Servicios' %}" class="servicios"></a>
+    </li>
+    <li>
+        <a href="{% url 'Agendar'%}" class="agendar"></a>
+    </li> -->   
+
+    <section class="servicios">
+        <h2>Servicios de Uñas</h2>
+        <div class="servicio">
+            <img src="{% static 'images/Imagen1.jpg' %}" alt="Diseño de Uñas 1">
+            <h3>Corte de Uñas Clásico</h3>
+            <p>Un corte de uñas profesional para mantener tus uñas saludables y hermosas.</p>
+        </div>
+
+    </section><br>
+
+    <footer>
+        <p>&copy; 2023 Spa de Uñas</p>
+    </footer>
+    {% endblock %}
+</body>
+</html>

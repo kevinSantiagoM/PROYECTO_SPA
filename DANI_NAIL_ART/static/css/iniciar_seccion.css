@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 420px;
+    height: 360px;
+    top: 5rem;
+    background-color: white;
+    border: 3px solid #ff4081;
+    border-radius: 23px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 2em;
+    color:#ff4081;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #ff4081;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #ff4081;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: rgba(0, 0, 0, 0.815);
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ff4081;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: black;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #ff4081;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+.login {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.registro {
+    position: relative;
+    top: 0.5rem;
+    left: 58rem;
+    width: 9rem;
+    height: 20px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Seccion {
+    position: relative;
+    top: 0.5rem;
+    left: 83rem;
+    width: 9rem;
+    height: 20px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.servicio {
+    position: relative;
+    top: 0.5rem;
+    left: 68rem;
+    width: 9rem;
+    height: 20px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.agendar {
+    position: relative;
+    top: 0.5rem;
+    left: -30rem;
+    width: 9rem;
+    height: 20px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 5rem;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.info {
+    position: relative;
+    left: 74rem;
+    top: 1rem;
+}
+
+.inicio{
+    position: relative;
+    left: 5rem;
+    top: -0.1rem;
+    width: 9rem;
+    height: 40px;
+    border-radius: 20px;
+    background: #ff4081;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}

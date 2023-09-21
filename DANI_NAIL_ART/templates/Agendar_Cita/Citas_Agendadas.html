@@ -1,0 +1,14 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+
+<main>
+    {% for citas in citas %}
+        <h1>Servicios: {{ citas.tipoServicio }}</h1>
+        <h1>nombre: {{ citas.nombre }}</h1>
+        <h1>fecha: {{ citas.fecha }}</h1>
+        <br>
+    {% endfor %}
+</main>
+
+{% endblock %}
